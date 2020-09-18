@@ -1,10 +1,9 @@
 def default():
-
+    # Testingyoyo
     task = {}
     env_vars = []
 
     shelloutconfigs = []
-
     shelloutconfigs.append('elasticdev:::ed_core::pre_scripts')
     shelloutconfigs.append('elasticdev:::ed_core::post_scripts')
 
@@ -13,5 +12,4 @@ def default():
                         'shelloutconfigs': shelloutconfigs 
                         }
     
-    
-    return task
+     return task
